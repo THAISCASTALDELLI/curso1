@@ -50,6 +50,14 @@ body {
         border-right: 2px solid var(--botao-ativo);
         border-top: none;
     }
-    
+    .botoes {
+      display: block;
+  }
 
+  @media screen and (min-width: 768px) {
+      .botoes {
+          display: flex;
+      }
+  }
+  
   
