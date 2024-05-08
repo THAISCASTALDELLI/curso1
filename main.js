@@ -25,5 +25,7 @@ function calculatempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
     let segundos   = tempoFinal/1000;
-    return segundos;
+    let minutos    = match.floor(segundos/60);
+    let horas      = match.floor(minutos/60)
+    return horas ;
 }
