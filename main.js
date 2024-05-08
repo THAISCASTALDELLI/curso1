@@ -28,5 +28,5 @@ function calculatempo(tempoObjetivo) {
     let minutos    = match.floor(segundos/60);
     let horas      = match.floor(minutos/60);
     let dias       = match.floor(horas/24);
-    return dias ;
+    return dias + horas;
 }
